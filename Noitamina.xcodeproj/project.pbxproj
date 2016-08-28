@@ -14,6 +14,12 @@
 		4326984B1D72D31A00D6FD03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432698491D72D31A00D6FD03 /* LaunchScreen.storyboard */; };
 		432698561D72D31A00D6FD03 /* NoitaminaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432698551D72D31A00D6FD03 /* NoitaminaTests.swift */; };
 		432698611D72D31A00D6FD03 /* NoitaminaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432698601D72D31A00D6FD03 /* NoitaminaUITests.swift */; };
+		43445C111D72F21A001AD804 /* ItemVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43445C101D72F21A001AD804 /* ItemVO.swift */; };
+		43445C131D72F279001AD804 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43445C121D72F278001AD804 /* ItemViewController.swift */; };
+		43445C151D7311AC001AD804 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43445C141D7311AC001AD804 /* ItemCell.swift */; };
+		43B491ED1D72D4FA005DF679 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B491EC1D72D4FA005DF679 /* ListViewController.swift */; };
+		43B491EF1D72D6B3005DF679 /* ListVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B491EE1D72D6B3005DF679 /* ListVO.swift */; };
+		43B491F11D72E088005DF679 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B491F01D72E088005DF679 /* ListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		4326985C1D72D31A00D6FD03 /* NoitaminaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoitaminaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		432698601D72D31A00D6FD03 /* NoitaminaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoitaminaUITests.swift; sourceTree = "<group>"; };
 		432698621D72D31A00D6FD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43445C101D72F21A001AD804 /* ItemVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemVO.swift; sourceTree = "<group>"; };
+		43445C121D72F278001AD804 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		43445C141D7311AC001AD804 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		43B491EC1D72D4FA005DF679 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		43B491EE1D72D6B3005DF679 /* ListVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListVO.swift; sourceTree = "<group>"; };
+		43B491F01D72E088005DF679 /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +111,13 @@
 			children = (
 				432698401D72D31A00D6FD03 /* AppDelegate.swift */,
 				432698421D72D31A00D6FD03 /* ViewController.swift */,
+				43445C101D72F21A001AD804 /* ItemVO.swift */,
+				43445C141D7311AC001AD804 /* ItemCell.swift */,
+				43445C121D72F278001AD804 /* ItemViewController.swift */,
 				432698441D72D31A00D6FD03 /* Main.storyboard */,
+				43B491EC1D72D4FA005DF679 /* ListViewController.swift */,
+				43B491F01D72E088005DF679 /* ListCell.swift */,
+				43B491EE1D72D6B3005DF679 /* ListVO.swift */,
 				432698471D72D31A00D6FD03 /* Assets.xcassets */,
 				432698491D72D31A00D6FD03 /* LaunchScreen.storyboard */,
 				4326984C1D72D31A00D6FD03 /* Info.plist */,
@@ -262,8 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43445C151D7311AC001AD804 /* ItemCell.swift in Sources */,
+				43445C131D72F279001AD804 /* ItemViewController.swift in Sources */,
+				43445C111D72F21A001AD804 /* ItemVO.swift in Sources */,
+				43B491EF1D72D6B3005DF679 /* ListVO.swift in Sources */,
 				432698431D72D31A00D6FD03 /* ViewController.swift in Sources */,
 				432698411D72D31A00D6FD03 /* AppDelegate.swift in Sources */,
+				43B491F11D72E088005DF679 /* ListCell.swift in Sources */,
+				43B491ED1D72D4FA005DF679 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +538,7 @@
 				432698671D72D31A00D6FD03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		432698681D72D31A00D6FD03 /* Build configuration list for PBXNativeTarget "NoitaminaTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +547,7 @@
 				4326986A1D72D31A00D6FD03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4326986B1D72D31A00D6FD03 /* Build configuration list for PBXNativeTarget "NoitaminaUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +556,7 @@
 				4326986D1D72D31A00D6FD03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
