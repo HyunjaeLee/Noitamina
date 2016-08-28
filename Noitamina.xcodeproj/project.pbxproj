@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		432698411D72D31A00D6FD03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432698401D72D31A00D6FD03 /* AppDelegate.swift */; };
+		432698431D72D31A00D6FD03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432698421D72D31A00D6FD03 /* ViewController.swift */; };
+		432698461D72D31A00D6FD03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432698441D72D31A00D6FD03 /* Main.storyboard */; };
+		432698481D72D31A00D6FD03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432698471D72D31A00D6FD03 /* Assets.xcassets */; };
+		4326984B1D72D31A00D6FD03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432698491D72D31A00D6FD03 /* LaunchScreen.storyboard */; };
+		432698561D72D31A00D6FD03 /* NoitaminaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432698551D72D31A00D6FD03 /* NoitaminaTests.swift */; };
+		432698611D72D31A00D6FD03 /* NoitaminaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432698601D72D31A00D6FD03 /* NoitaminaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		432698521D72D31A00D6FD03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 432698351D72D31A00D6FD03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4326983C1D72D31A00D6FD03;
+			remoteInfo = Noitamina;
+		};
+		4326985D1D72D31A00D6FD03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 432698351D72D31A00D6FD03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4326983C1D72D31A00D6FD03;
+			remoteInfo = Noitamina;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4326983D1D72D31A00D6FD03 /* Noitamina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noitamina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		432698401D72D31A00D6FD03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		432698421D72D31A00D6FD03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		432698451D72D31A00D6FD03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		432698471D72D31A00D6FD03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4326984A1D72D31A00D6FD03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4326984C1D72D31A00D6FD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432698511D72D31A00D6FD03 /* NoitaminaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoitaminaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		432698551D72D31A00D6FD03 /* NoitaminaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoitaminaTests.swift; sourceTree = "<group>"; };
+		432698571D72D31A00D6FD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4326985C1D72D31A00D6FD03 /* NoitaminaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoitaminaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		432698601D72D31A00D6FD03 /* NoitaminaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoitaminaUITests.swift; sourceTree = "<group>"; };
+		432698621D72D31A00D6FD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4326983A1D72D31A00D6FD03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4326984E1D72D31A00D6FD03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432698591D72D31A00D6FD03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		432698341D72D31A00D6FD03 = {
+			isa = PBXGroup;
+			children = (
+				4326983F1D72D31A00D6FD03 /* Noitamina */,
+				432698541D72D31A00D6FD03 /* NoitaminaTests */,
+				4326985F1D72D31A00D6FD03 /* NoitaminaUITests */,
+				4326983E1D72D31A00D6FD03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4326983E1D72D31A00D6FD03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4326983D1D72D31A00D6FD03 /* Noitamina.app */,
+				432698511D72D31A00D6FD03 /* NoitaminaTests.xctest */,
+				4326985C1D72D31A00D6FD03 /* NoitaminaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4326983F1D72D31A00D6FD03 /* Noitamina */ = {
+			isa = PBXGroup;
+			children = (
+				432698401D72D31A00D6FD03 /* AppDelegate.swift */,
+				432698421D72D31A00D6FD03 /* ViewController.swift */,
+				432698441D72D31A00D6FD03 /* Main.storyboard */,
+				432698471D72D31A00D6FD03 /* Assets.xcassets */,
+				432698491D72D31A00D6FD03 /* LaunchScreen.storyboard */,
+				4326984C1D72D31A00D6FD03 /* Info.plist */,
+			);
+			path = Noitamina;
+			sourceTree = "<group>";
+		};
+		432698541D72D31A00D6FD03 /* NoitaminaTests */ = {
+			isa = PBXGroup;
+			children = (
+				432698551D72D31A00D6FD03 /* NoitaminaTests.swift */,
+				432698571D72D31A00D6FD03 /* Info.plist */,
+			);
+			path = NoitaminaTests;
+			sourceTree = "<group>";
+		};
+		4326985F1D72D31A00D6FD03 /* NoitaminaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				432698601D72D31A00D6FD03 /* NoitaminaUITests.swift */,
+				432698621D72D31A00D6FD03 /* Info.plist */,
+			);
+			path = NoitaminaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4326983C1D72D31A00D6FD03 /* Noitamina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432698651D72D31A00D6FD03 /* Build configuration list for PBXNativeTarget "Noitamina" */;
+			buildPhases = (
+				432698391D72D31A00D6FD03 /* Sources */,
+				4326983A1D72D31A00D6FD03 /* Frameworks */,
+				4326983B1D72D31A00D6FD03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Noitamina;
+			productName = Noitamina;
+			productReference = 4326983D1D72D31A00D6FD03 /* Noitamina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		432698501D72D31A00D6FD03 /* NoitaminaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432698681D72D31A00D6FD03 /* Build configuration list for PBXNativeTarget "NoitaminaTests" */;
+			buildPhases = (
+				4326984D1D72D31A00D6FD03 /* Sources */,
+				4326984E1D72D31A00D6FD03 /* Frameworks */,
+				4326984F1D72D31A00D6FD03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				432698531D72D31A00D6FD03 /* PBXTargetDependency */,
+			);
+			name = NoitaminaTests;
+			productName = NoitaminaTests;
+			productReference = 432698511D72D31A00D6FD03 /* NoitaminaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4326985B1D72D31A00D6FD03 /* NoitaminaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4326986B1D72D31A00D6FD03 /* Build configuration list for PBXNativeTarget "NoitaminaUITests" */;
+			buildPhases = (
+				432698581D72D31A00D6FD03 /* Sources */,
+				432698591D72D31A00D6FD03 /* Frameworks */,
+				4326985A1D72D31A00D6FD03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4326985E1D72D31A00D6FD03 /* PBXTargetDependency */,
+			);
+			name = NoitaminaUITests;
+			productName = NoitaminaUITests;
+			productReference = 4326985C1D72D31A00D6FD03 /* NoitaminaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		432698351D72D31A00D6FD03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Hyunjae Lee";
+				TargetAttributes = {
+					4326983C1D72D31A00D6FD03 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CU6TTXXQZE;
+						ProvisioningStyle = Automatic;
+					};
+					432698501D72D31A00D6FD03 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CU6TTXXQZE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4326983C1D72D31A00D6FD03;
+					};
+					4326985B1D72D31A00D6FD03 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CU6TTXXQZE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4326983C1D72D31A00D6FD03;
+					};
+				};
+			};
+			buildConfigurationList = 432698381D72D31A00D6FD03 /* Build configuration list for PBXProject "Noitamina" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 432698341D72D31A00D6FD03;
+			productRefGroup = 4326983E1D72D31A00D6FD03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4326983C1D72D31A00D6FD03 /* Noitamina */,
+				432698501D72D31A00D6FD03 /* NoitaminaTests */,
+				4326985B1D72D31A00D6FD03 /* NoitaminaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4326983B1D72D31A00D6FD03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4326984B1D72D31A00D6FD03 /* LaunchScreen.storyboard in Resources */,
+				432698481D72D31A00D6FD03 /* Assets.xcassets in Resources */,
+				432698461D72D31A00D6FD03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4326984F1D72D31A00D6FD03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4326985A1D72D31A00D6FD03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		432698391D72D31A00D6FD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432698431D72D31A00D6FD03 /* ViewController.swift in Sources */,
+				432698411D72D31A00D6FD03 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4326984D1D72D31A00D6FD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432698561D72D31A00D6FD03 /* NoitaminaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432698581D72D31A00D6FD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432698611D72D31A00D6FD03 /* NoitaminaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		432698531D72D31A00D6FD03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4326983C1D72D31A00D6FD03 /* Noitamina */;
+			targetProxy = 432698521D72D31A00D6FD03 /* PBXContainerItemProxy */;
+		};
+		4326985E1D72D31A00D6FD03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4326983C1D72D31A00D6FD03 /* Noitamina */;
+			targetProxy = 4326985D1D72D31A00D6FD03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		432698441D72D31A00D6FD03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432698451D72D31A00D6FD03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		432698491D72D31A00D6FD03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4326984A1D72D31A00D6FD03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		432698631D72D31A00D6FD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		432698641D72D31A00D6FD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		432698661D72D31A00D6FD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CU6TTXXQZE;
+				INFOPLIST_FILE = Noitamina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hyunjae.Noitamina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		432698671D72D31A00D6FD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CU6TTXXQZE;
+				INFOPLIST_FILE = Noitamina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hyunjae.Noitamina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		432698691D72D31A00D6FD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CU6TTXXQZE;
+				INFOPLIST_FILE = NoitaminaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hyunjae.NoitaminaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noitamina.app/Noitamina";
+			};
+			name = Debug;
+		};
+		4326986A1D72D31A00D6FD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CU6TTXXQZE;
+				INFOPLIST_FILE = NoitaminaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hyunjae.NoitaminaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noitamina.app/Noitamina";
+			};
+			name = Release;
+		};
+		4326986C1D72D31A00D6FD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CU6TTXXQZE;
+				INFOPLIST_FILE = NoitaminaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hyunjae.NoitaminaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Noitamina;
+			};
+			name = Debug;
+		};
+		4326986D1D72D31A00D6FD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CU6TTXXQZE;
+				INFOPLIST_FILE = NoitaminaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hyunjae.NoitaminaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Noitamina;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		432698381D72D31A00D6FD03 /* Build configuration list for PBXProject "Noitamina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432698631D72D31A00D6FD03 /* Debug */,
+				432698641D72D31A00D6FD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		432698651D72D31A00D6FD03 /* Build configuration list for PBXNativeTarget "Noitamina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432698661D72D31A00D6FD03 /* Debug */,
+				432698671D72D31A00D6FD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		432698681D72D31A00D6FD03 /* Build configuration list for PBXNativeTarget "NoitaminaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432698691D72D31A00D6FD03 /* Debug */,
+				4326986A1D72D31A00D6FD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4326986B1D72D31A00D6FD03 /* Build configuration list for PBXNativeTarget "NoitaminaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4326986C1D72D31A00D6FD03 /* Debug */,
+				4326986D1D72D31A00D6FD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 432698351D72D31A00D6FD03 /* Project object */;
+}
